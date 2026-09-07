@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GimxBackend": {
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}
