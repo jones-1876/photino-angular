@@ -2,7 +2,7 @@ using System.Drawing;
 using Photino.NET;
 using Photino.NET.Server;
 
-namespace GimxBackend;
+namespace BackEnd;
 
 internal static class Program
 {
@@ -19,7 +19,7 @@ internal static class Program
     /// <summary>Where `ng serve` listens. Must match FrontEnd/angular.json serve.options.port.</summary>
     private const string DevServerUrl = "http://localhost:4200";
 
-    private const string WindowTitle = "Gimx";
+    private const string WindowTitle = "BackEnd";
 
     [STAThread]
     private static void Main(string[] args)

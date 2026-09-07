@@ -1,6 +1,10 @@
 {
   "profiles": {
-    "GimxBackend": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "BackEnd": {
       "commandName": "Project",
       "workingDirectory": "$(ProjectDir)"
     }
